@@ -1,0 +1,130 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+.header {
+   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+    padding-bottom: 15px;
+}
+
+.inputholder {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.uploadlabel {
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+
+.imageupload::file-selector-button {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 0.9px solid black; 
+  border-radius: 5px;
+  cursor: pointer; 
+  background-color:#834ae6;
+  transition: background-color 0.3s ease;
+}
+
+.imageupload::file-selector-button:hover {
+    background-color: #9b77dd;
+    
+}
+
+.mainWrapper {
+    position: relative;
+    top: 50px;
+}
+
+.mainContent {
+  display: flex;
+
+  align-items: center; 
+}
+
+.imageHolder {
+  margin-left: 25px;
+}
+
+.imageHolder img {
+  min-width: 500px;
+  min-height: 400px;
+  max-width: 500px;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 8px !important; 
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.idbutton {  
+  margin-left: 185px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 0.9px solid black; 
+  border-radius: 5px;
+  cursor: pointer; 
+  background-color: green;
+  transition: background-color 0.3s ease;
+}
+
+.idbutton:hover {
+  background-color: rgb(68, 164, 68);
+}
+
+
+
+
+.resultsHolder {
+    margin-top: 20px;
+  }
+  
+  .result {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-right: 15px;
+  }
+  
+  .confidence {
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  .bestGuess {
+    font-size: 16.5px;
+    padding-left: 5px;
+    color: #0a9a0e;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }

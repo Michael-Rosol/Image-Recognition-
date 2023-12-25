@@ -1,0 +1,31 @@
+.nasa-container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .nasaimage {
+    flex-shrink: 0; 
+    max-width: 57%; 
+    max-height: 100vh; 
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .nasa-wording {
+    border: 2px solid rgb(94, 93, 93); 
+    padding: 20px; 
+    border-radius: 8px;
+  }
+  
+  .title {
+    margin-bottom: 10px; 
+  }
+  
+  .date {
+    font-style: italic; 
+  }
+  
+  .explanation {
+    line-height: 2.0; 
+  }
+  
